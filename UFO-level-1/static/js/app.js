@@ -1,7 +1,7 @@
 // from data.js
 var tableData = data;
 
-var filter = d3.select("#search")
+var filter = d3.select("#search");
 
 // reference the table body
 var tbody = d3.select("tbody");
@@ -59,3 +59,5 @@ function filterData() {
 function handleResetButtonClick() {
     loadtable(tableData);
 }
+
+
