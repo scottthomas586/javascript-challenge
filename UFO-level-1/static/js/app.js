@@ -1,4 +1,4 @@
-// from data.js
+from data.js
 var tableData = data;
 
 var filter = d3.select("#search");
@@ -27,7 +27,7 @@ function loadtable(tableData) {
 }
 
 
-//create event handlers
+create event handlers
 filter.on("click", filterData);
 
 function filterData() {
@@ -59,5 +59,3 @@ function filterData() {
 function handleResetButtonClick() {
     loadtable(tableData);
 }
-
-
